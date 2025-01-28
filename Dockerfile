@@ -1,5 +1,5 @@
 FROM gcr.io/distroless/static:nonroot
 
-COPY helloworld /helloworld
+COPY goreleaser-multi-arch-docker /helloworld
 
 ENTRYPOINT [ "/helloworld" ]

@@ -12,7 +12,7 @@ before:
 
 builds:
   # https://goreleaser.com/customization/build/
-  - id: helloworld
+  - id: goreleaser-multi-arch-docker
     main: ./helloworld
     goos:
       - linux
