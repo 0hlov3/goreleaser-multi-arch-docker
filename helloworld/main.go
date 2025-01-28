@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+	"os/user"
 	"runtime"
 )
 
 func main() {
-	fmt.Println("Hello World")
+	user, _ := user.Current()
+	fmt.Printf("Hello %s\n", user.Name)
 	fmt.Println(runtime.GOOS, runtime.GOARCH)
 }
