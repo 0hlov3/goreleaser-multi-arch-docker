@@ -1,10 +1,10 @@
 name: goreleaser
 
 on:
-  pull_request:
-    # Run on PRs for testing
-    branches:
-      - main
+  #pull_request:
+  #  # Run on PRs for testing
+  #  branches:
+  #    - main
   push:
     # Run only on tags
     tags:
